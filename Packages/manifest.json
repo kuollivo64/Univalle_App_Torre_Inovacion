@@ -1,6 +1,6 @@
 {
-  "dependencies": {
-    "com.ptc.vuforia.engine": "file:C:/Users/Yes-us/Downloads/com.ptc.vuforia.engine (1)",
+    "dependencies": {
+    "com.ptc.vuforia.engine": "git+https://git-packages.developer.vuforia.com#9.8.11",
     "com.unity.collab-proxy": "1.6.0",
     "com.unity.ide.rider": "1.2.1",
     "com.unity.ide.visualstudio": "2.0.9",
