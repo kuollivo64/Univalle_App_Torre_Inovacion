@@ -190,9 +190,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Los Textos de Interacci\xF3n Social, son aquellos que tienen como funci\xF3n
-    principal comunicar una informaci\xF3n breve y precisa. Busca convencer, invitar,
-    persuadir, influir, disuadir, entre otros."
+  m_Text: "Al visualizar un objeto 3D presione sobre el mismo en la pantalla de su
+    dispositivo para tener una informaci\xF3n m\xE1s detallada en Realidad Aumentada."
 --- !u!222 &86164472
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -213,6 +212,7 @@ GameObject:
   - component: {fileID: 315556826}
   - component: {fileID: 315556825}
   - component: {fileID: 315556827}
+  - component: {fileID: 315556828}
   m_Layer: 5
   m_Name: BotonSiguiente
   m_TagString: Untagged
@@ -258,8 +258,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 9041363206929538343, guid: 5927108cdc46c0643a87db56644e9c4f,
-    type: 3}
+  m_Sprite: {fileID: 21300000, guid: 430746039a35f4549b752ca4c5f5539d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -331,6 +330,25 @@ MonoBehaviour:
           m_StringArgument: 02
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!95 &315556828
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315556823}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 93aec64267cdef04a8fcb1984c443f05, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &398379080
 GameObject:
   m_ObjectHideFlags: 0
@@ -343,6 +361,7 @@ GameObject:
   - component: {fileID: 398379083}
   - component: {fileID: 398379082}
   - component: {fileID: 398379084}
+  - component: {fileID: 398379085}
   m_Layer: 5
   m_Name: BotonAnterior
   m_TagString: Untagged
@@ -357,13 +376,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 398379080}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 3.5, y: 3.5, z: 3.5}
   m_Children: []
   m_Father: {fileID: 1387555245}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: 100, y: 0}
@@ -388,8 +407,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 8432386846345271887, guid: 5927108cdc46c0643a87db56644e9c4f,
-    type: 3}
+  m_Sprite: {fileID: 21300000, guid: 430746039a35f4549b752ca4c5f5539d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -472,6 +490,25 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!95 &398379085
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398379080}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 93aec64267cdef04a8fcb1984c443f05, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1177,16 +1214,16 @@ MonoBehaviour:
     m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "En el lenguaje escrito, el texto informativo es aquel en el que el emisor
-    da a conocer brevemente hechos, circunstancias reales o como tema particular
-    al receptor.\u200B\u200B\u200BEstos textos son narraciones informativas de hechos
-    actuales de forma objetiva."
+  m_Text: "\xA1BIENVENIDO A LA MARAVILLOSA EXPERIENCIA EN REALIDAD AUMENTADA!\n\nEn
+    todo su recorrido por la Torre Innovaci\xF3n se encontrar\xE1 con c\xF3digos
+    QR respectivos de cada piso en la cual podr\xE1 escanearlos con la app, visualizar
+    e interactuar con los objetos 3D que vea en cada laboratorio.\n"
 --- !u!222 &1470429076
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1250,6 +1287,7 @@ GameObject:
   - component: {fileID: 1636349152}
   - component: {fileID: 1636349151}
   - component: {fileID: 1636349153}
+  - component: {fileID: 1636349154}
   m_Layer: 5
   m_Name: BotonSiguiente
   m_TagString: Untagged
@@ -1273,7 +1311,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -100, y: 0}
+  m_AnchoredPosition: {x: -85, y: 0}
   m_SizeDelta: {x: 25, y: 24}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1636349151
@@ -1289,14 +1327,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9433962, g: 0.12904951, b: 0.12904951, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 9041363206929538343, guid: 5927108cdc46c0643a87db56644e9c4f,
-    type: 3}
+  m_Sprite: {fileID: 21300000, guid: 430746039a35f4549b752ca4c5f5539d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1379,6 +1416,25 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!95 &1636349154
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1636349149}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 93aec64267cdef04a8fcb1984c443f05, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1891186552
 GameObject:
   m_ObjectHideFlags: 0
