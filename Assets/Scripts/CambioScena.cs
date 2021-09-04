@@ -7,6 +7,6 @@ public class CambioScena : MonoBehaviour
 {
     public void LoadScena(string scenaName)
     {
-        SceneManager.LoadScene("ScenaUTI" + scenaName);
+        SceneManager.LoadScene(scenaName);
     }
 }
