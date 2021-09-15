@@ -1,0 +1,369 @@
+fileFormatVersion: 2
+guid: 70a55938b07d10648b1bf20444481dbf
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 2089906429311420690
+    second: HuesosHuevo|Action
+  - first:
+      74: 6556707041774269283
+    second: HuesosHuevo|HuesosFoco|HuesosFoco|Action.001|HuesosFoco|Action.001
+  - first:
+      74: 4476640728449887381
+    second: HuesosHuevo|HuesosFoco|HuesosFoco|Armature.001Action|HuesosFoco|Armature.00
+  - first:
+      74: 823626573766437497
+    second: HuesosHuevo|HuesosHuevo|HuesosHuevo|Action.001|HuesosHuevo|Action.001
+  - first:
+      74: 5633327195371822125
+    second: HuesosHuevo|HuesosHuevo|HuesosHuevo|Action|HuesosHuevo|Action
+  - first:
+      74: -6599548042304438135
+    second: HuesosHuevo|HuesosHuevo|HuesosHuevo|Armature.001Action|HuesosHuevo|Armature
+  - first:
+      74: -5117892164912103781
+    second: HuesosHuevo|HuesosHuevo|HuesosHuevo|ArmatureAction.001|HuesosHuevo|Armature
+  - first:
+      74: -8839125459898313735
+    second: HuesosFoco|HuesosFoco|HuesosFoco|Action.001|HuesosFoco|Action.001
+  - first:
+      74: -9134098143537170598
+    second: HuesosFoco|HuesosFoco|HuesosFoco|Armature.001Action|HuesosFoco|Armature.00
+  - first:
+      74: -4471919364206210544
+    second: HuesosFoco|HuesosHuevo|HuesosHuevo|Action.001|HuesosHuevo|Action.001
+  - first:
+      74: -5384214651851512832
+    second: HuesosFoco|HuesosHuevo|HuesosHuevo|Armature.001Action|HuesosHuevo|Armature
+  - first:
+      74: -1043783964905726799
+    second: HuesosHuevo|Action (1)
+  - first:
+      74: -7866651273275819511
+    second: HuesosHuevo|Action (2)
+  - first:
+      74: -1218156691199613835
+    second: HuesosHuevo|Action (3)
+  - first:
+      74: 3050141231182961958
+    second: HuesosHuevo|Action (4)
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bordes
+    second: {fileID: 2100000, guid: 0f5f311cf96470c4594e65bf94ebab31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LuzEmisora
+    second: {fileID: 2100000, guid: ecc6dd935474a2943a1e4387e06162b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Textura_centroHuevo
+    second: {fileID: 2100000, guid: d7a4e011e0bc49a4f80c2bf3fea53a12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Textura_huevo
+    second: {fileID: 2100000, guid: 3f3df61a27dd8b940846f2213fe5fafb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Textura_metalizado
+    second: {fileID: 2100000, guid: 76ce31c773903f24cb30c73d610ee8c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Textura_rojoBoton
+    second: {fileID: 2100000, guid: 93a2f030a4edc7948a3cad5e4af0a965, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Textura_verdeBoton
+    second: {fileID: 2100000, guid: bd25c19972f4eee42a071a957b9cc264, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vidrio.001
+    second: {fileID: 2100000, guid: f89c18d8744b9e342ac9730f09c2f7da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: default3
+    second: {fileID: 2100000, guid: ac7662e2dc2ff824c862ccb75d4df964, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: Event NewEvent has a time (13.300000) outside the clip's
+      valid range (0.200000..9.633334). It will never be fired
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: HuesosHuevo|HuesosHuevo|HuesosHuevo|Action|HuesosHuevo|Action
+      takeName: HuesosHuevo|HuesosHuevo|HuesosHuevo|Action|HuesosHuevo|Action
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 385
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: HuesosHuevo|Action
+      takeName: HuesosHuevo|Action
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 399
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: HuesosHuevo|Action (1)
+      takeName: HuesosHuevo|Action
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 399
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: NewEvent
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: HuesosHuevo|Action (2)
+      takeName: HuesosHuevo|Action
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 399
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: HuesosHuevo|Action (3)
+      takeName: HuesosHuevo|Action
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 399
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: HuesosHuevo|Action (4)
+      takeName: HuesosHuevo|Action
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 399
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
