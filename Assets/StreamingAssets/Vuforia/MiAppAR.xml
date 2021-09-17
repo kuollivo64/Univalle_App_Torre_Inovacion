@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="Piso1" size="1.000000 1.000000" />
     <ImageTarget name="sotano3" size="1.000000 1.000000" />
     <ImageTarget name="piso12" size="1.000000 1.000000" />
     <ImageTarget name="piso11" size="1.000000 1.000000" />
@@ -9,7 +10,6 @@
     <ImageTarget name="piso6" size="1.000000 1.000000" />
     <ImageTarget name="piso4" size="1.000000 1.000000" />
     <ImageTarget name="piso3" size="1.000000 1.000000" />
-    <ImageTarget name="piso1" size="1.000000 1.000000" />
     <ImageTarget name="165Matrix1" size="1.000000 1.000000" />
   </Tracking>
 </QCARConfig>
