@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
-    <ImageTarget name="piso11banner" size="1.000000 1.000000" />
-    <ImageTarget name="sotano3banner" size="1.000000 1.000000" />
-    <ImageTarget name="piso12banner" size="1.000000 1.000000" />
-    <ImageTarget name="piso6banner" size="1.000000 1.000000" />
-    <ImageTarget name="piso3banner" size="1.000000 1.000000" />
-    <ImageTarget name="piso8banner" size="1.000000 1.000000" />
-    <ImageTarget name="piso7banner" size="1.000000 1.000000" />
-    <ImageTarget name="piso4banner" size="1.000000 1.000000" />
+    <ImageTarget name="piso11Banner" size="1.000000 1.000000" />
+    <ImageTarget name="piso07Banner" size="1.000000 1.000000" />
+    <ImageTarget name="piso6Banner" size="1.000000 1.000000" />
+    <ImageTarget name="sotano3Banner" size="1.000000 1.000000" />
+    <ImageTarget name="piso12Banner" size="1.000000 1.000000" />
+    <ImageTarget name="piso8Banner" size="1.000000 1.000000" />
+    <ImageTarget name="piso4Banner" size="1.000000 1.000000" />
+    <ImageTarget name="piso3Banner" size="1.000000 1.000000" />
     <ImageTarget name="Piso1" size="1.000000 1.000000" />
     <ImageTarget name="piso12" size="1.000000 1.000000" />
     <ImageTarget name="piso11" size="1.000000 1.000000" />
